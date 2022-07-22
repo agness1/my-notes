@@ -1,0 +1,107 @@
+.container {
+  
+    width: 15rem;
+    height: 30rem;
+    background-color: #1c2121;
+    border-radius: 0.5rem;
+   
+}
+
+ 
+    .addNoteTitle {
+    color: whitesmoke ;
+    text-align: center;
+    background-color: #450181;
+    height: 3rem;
+    border-radius: 10px 10px 0 0 ;
+}
+ .addNoteTitle h2 {
+    line-height: 3rem;
+}
+
+form input, form textarea {
+   
+    border-radius: 0.5rem;
+}
+textArea {
+    background-color: #450181;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+}
+form input {
+    width: 60%;
+    height: 8%;
+    background-color: 
+    #450181;
+    border: 2px solid #1c2121 ;
+    color: white;
+    text-align: center;
+}
+form label {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: whitesmoke ;
+}
+.submit {
+    width: 40% ;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #450181;
+    color: whitesmoke;
+}
+.submit:hover {
+    background-color: whitesmoke;
+  color: #450181;
+}
+.selectColor{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.selectColor div {
+   
+    width: 1.5rem;
+    height: 1.5rem;
+    margin:7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: whitesmoke
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.addNewNote  {
+  
+    flex-direction: column;
+    width: 25% ;
+    height: 80%;
+    background-color: #1c2121;
+    border-radius: 0.5rem;
+    
+  
+}
+
+form {
+    
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    justify-content: space-evenly;
+    
+    display: flex;
+
+    
+}
